@@ -34,7 +34,7 @@ public:
 
     nhp_.param("sensors/usbl/sync_time_th", sync_time_th_, 0.1);
     nhp_.param("sensors/usbl/sync_prop_th", sync_prop_th_, 0.1);
-    nhp_.param("sensors/usbl/sync_disp_th", sync_disp_th_, 0.5);
+    nhp_.param("sensors/usbl/sync_disp_th", sync_disp_th_, 2.5);
     nhp_.param("sensors/usbl/odom_queue_len", odom_queue_len_, 1000);
     nhp_.param("sensors/usbl/percentage_queue_len", percentage_queue_len_, 100);
     nhp_.param("sensors/usbl/covariance", usbl_cov_, 6.0);
